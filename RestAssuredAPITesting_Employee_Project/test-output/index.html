@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\sw138\AppData\Local\Temp\testng-eclipse--1835272377\testng-customsuite.xml</span>
+                    <span>C:\Users\sw138\AppData\Local\Temp\testng-eclipse--611761\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -102,12 +102,12 @@
                     <div class="method-list-content failed suite-Default_suite">
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.employeeapi.testCases.TC001_Get_All_Employees" hash-for-method="checkContentType">checkContentType</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.employeeapi.testCases.TC001_Get_All_Employees" hash-for-method="checkResponseTime">checkResponseTime</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.employeeapi.testCases.TC001_Get_All_Employees" hash-for-method="checkStatusCode">checkStatusCode</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.employeeapi.testCases.TC001_Get_All_Employees" hash-for-method="checkServerType">checkServerType</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -136,6 +136,11 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.employeeapi.testCases.TC001_Get_All_Employees" hash-for-method="checkContentType">checkContentType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.employeeapi.testCases.TC001_Get_All_Employees" hash-for-method="checkCookies">checkCookies</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -146,12 +151,7 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.employeeapi.testCases.TC001_Get_All_Employees" hash-for-method="checkResponseTime">checkResponseTime</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.employeeapi.testCases.TC001_Get_All_Employees" hash-for-method="checkServerType">checkServerType</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.employeeapi.testCases.TC001_Get_All_Employees" hash-for-method="checkStatusCode">checkStatusCode</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -174,13 +174,14 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="checkContentType">
-                  </a> <!-- checkContentType -->
-                  <span class="method-name">checkContentType</span>
-                  <div class="stack-trace">junit.framework.ComparisonFailure: expected:&lt;text/html; charset=UTF-8&gt; but was:&lt;application/json&gt;
-	at junit.framework.Assert.assertEquals(Assert.java:81)
-	at junit.framework.Assert.assertEquals(Assert.java:87)
-	at com.employeeapi.testCases.TC001_Get_All_Employees.checkContentType(TC001_Get_All_Employees.java:75)
+                  <a name="checkResponseTime">
+                  </a> <!-- checkResponseTime -->
+                  <span class="method-name">checkResponseTime</span>
+                  <div class="stack-trace">junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertTrue(Assert.java:27)
+	at com.employeeapi.testCases.TC001_Get_All_Employees.checkResponseTime(TC001_Get_All_Employees.java:57)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -212,16 +213,13 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="checkStatusCode">
-                  </a> <!-- checkStatusCode -->
-                  <span class="method-name">checkStatusCode</span>
-                  <div class="stack-trace">junit.framework.AssertionFailedError: expected:&lt;429&gt; but was:&lt;200&gt;
-	at junit.framework.Assert.fail(Assert.java:47)
-	at junit.framework.Assert.failNotEquals(Assert.java:282)
-	at junit.framework.Assert.assertEquals(Assert.java:64)
-	at junit.framework.Assert.assertEquals(Assert.java:201)
-	at junit.framework.Assert.assertEquals(Assert.java:207)
-	at com.employeeapi.testCases.TC001_Get_All_Employees.checkStatusCode(TC001_Get_All_Employees.java:44)
+                  <a name="checkServerType">
+                  </a> <!-- checkServerType -->
+                  <span class="method-name">checkServerType</span>
+                  <div class="stack-trace">junit.framework.ComparisonFailure: expected:&lt;.../1.19.10&gt; but was:&lt;...&gt;
+	at junit.framework.Assert.assertEquals(Assert.java:81)
+	at junit.framework.Assert.assertEquals(Assert.java:87)
+	at com.employeeapi.testCases.TC001_Get_All_Employees.checkServerType(TC001_Get_All_Employees.java:85)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -256,7 +254,7 @@
                   <a name="checkStatusLine">
                   </a> <!-- checkStatusLine -->
                   <span class="method-name">checkStatusLine</span>
-                  <div class="stack-trace">junit.framework.ComparisonFailure: expected:&lt;...429 Too Many Requests&gt; but was:&lt;...200 Ok&gt;
+                  <div class="stack-trace">junit.framework.ComparisonFailure: expected:&lt;...K&gt; but was:&lt;...k&gt;
 	at junit.framework.Assert.assertEquals(Assert.java:81)
 	at junit.framework.Assert.assertEquals(Assert.java:87)
 	at com.employeeapi.testCases.TC001_Get_All_Employees.checkStatusLine(TC001_Get_All_Employees.java:66)
@@ -313,6 +311,13 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
+                  <a name="checkContentType">
+                  </a> <!-- checkContentType -->
+                  <span class="method-name">checkContentType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="checkCookies">
                   </a> <!-- checkCookies -->
                   <span class="method-name">checkCookies</span>
@@ -327,16 +332,9 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="checkResponseTime">
-                  </a> <!-- checkResponseTime -->
-                  <span class="method-name">checkResponseTime</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="checkServerType">
-                  </a> <!-- checkServerType -->
-                  <span class="method-name">checkServerType</span>
+                  <a name="checkStatusCode">
+                  </a> <!-- checkStatusCode -->
+                  <span class="method-name">checkStatusCode</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -344,7 +342,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\sw138\AppData\Local\Temp\testng-eclipse--1835272377\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\sw138\AppData\Local\Temp\testng-eclipse--611761\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -397,44 +395,44 @@ data.addRows(9);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'checkResponseBody')
 data.setCell(0, 2, 'com.employeeapi.testCases.TC001_Get_All_Employees')
-data.setCell(0, 3, 29);
+data.setCell(0, 3, 34);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'checkConentLength')
 data.setCell(1, 2, 'com.employeeapi.testCases.TC001_Get_All_Employees')
-data.setCell(1, 3, 6);
+data.setCell(1, 3, 10);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'checkResponseTime')
+data.setCell(2, 1, 'checkServerType')
 data.setCell(2, 2, 'com.employeeapi.testCases.TC001_Get_All_Employees')
-data.setCell(2, 3, 2);
+data.setCell(2, 3, 4);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'checkServerType')
+data.setCell(3, 1, 'checkResponseTime')
 data.setCell(3, 2, 'com.employeeapi.testCases.TC001_Get_All_Employees')
-data.setCell(3, 3, 2);
+data.setCell(3, 3, 4);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'checkContentEncoding')
+data.setCell(4, 1, 'checkStatusCode')
 data.setCell(4, 2, 'com.employeeapi.testCases.TC001_Get_All_Employees')
-data.setCell(4, 3, 2);
+data.setCell(4, 3, 3);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'checkStatusCode')
+data.setCell(5, 1, 'checkStatusLine')
 data.setCell(5, 2, 'com.employeeapi.testCases.TC001_Get_All_Employees')
-data.setCell(5, 3, 2);
+data.setCell(5, 3, 3);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'checkContentType')
+data.setCell(6, 1, 'checkCookies')
 data.setCell(6, 2, 'com.employeeapi.testCases.TC001_Get_All_Employees')
 data.setCell(6, 3, 2);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'checkCookies')
+data.setCell(7, 1, 'checkContentEncoding')
 data.setCell(7, 2, 'com.employeeapi.testCases.TC001_Get_All_Employees')
-data.setCell(7, 3, 1);
+data.setCell(7, 3, 2);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'checkStatusLine')
+data.setCell(8, 1, 'checkContentType')
 data.setCell(8, 2, 'com.employeeapi.testCases.TC001_Get_All_Employees')
-data.setCell(8, 3, 1);
+data.setCell(8, 3, 2);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 47 ms</span>
+              <span class="suite-total-time">Total running time: 64 ms</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -467,49 +465,49 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="configuration-class before">
                 <span class="method-name">getAllEmployees</span>
-                <span class="method-start">90 ms</span>
+                <span class="method-start">174 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">checkConentLength</span>
-                <span class="method-start">7335 ms</span>
+                <span class="method-start">9169 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">checkContentEncoding</span>
-                <span class="method-start">7343 ms</span>
+                <span class="method-start">9181 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">checkContentType</span>
-                <span class="method-start">7346 ms</span>
+                <span class="method-start">9184 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">checkCookies</span>
-                <span class="method-start">7352 ms</span>
+                <span class="method-start">9187 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">checkResponseBody</span>
-                <span class="method-start">7355 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">checkResponseTime</span>
-                <span class="method-start">7385 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">checkServerType</span>
-                <span class="method-start">7388 ms</span>
+                <span class="method-start">9193 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
+                <span class="method-name">checkResponseTime</span>
+                <span class="method-start">9228 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">checkServerType</span>
+                <span class="method-start">9236 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
                 <span class="method-name">checkStatusCode</span>
-                <span class="method-start">7391 ms</span>
+                <span class="method-start">9242 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">checkStatusLine</span>
-                <span class="method-start">7394 ms</span>
+                <span class="method-start">9246 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

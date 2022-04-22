@@ -5,11 +5,11 @@
     <classes>
       <class name="com.employeeapi.testCases.TC001_Get_All_Employees">
         <methods>
-          <include name="checkContentType"/>
+          <include name="checkServerType"/>
           <include name="checkStatusLine"/>
           <include name="setup"/>
+          <include name="checkResponseTime"/>
           <include name="getAllEmployees"/>
-          <include name="checkStatusCode"/>
         </methods>
       </class> <!-- com.employeeapi.testCases.TC001_Get_All_Employees -->
     </classes>

@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>6/3/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Apr 20 15:47:06 IST 2022</td>
+<td>Started on:</td><td>Fri Apr 22 16:42:40 IST 2022</td>
 </tr>
-<tr><td>Total time:</td><td>7 seconds (7404 ms)</td>
+<tr><td>Total time:</td><td>9 seconds (9271 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,11 +75,12 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.employeeapi.testCases.TC001_Get_All_Employees.checkContentType()'><b>checkContentType</b><br>Test class: com.employeeapi.testCases.TC001_Get_All_Employees</td>
-<td><div><pre>junit.framework.ComparisonFailure: expected:&lt;text/html; charset=UTF-8&gt; but was:&lt;application/json&gt;
-	at junit.framework.Assert.assertEquals(Assert.java:81)
-	at junit.framework.Assert.assertEquals(Assert.java:87)
-	at com.employeeapi.testCases.TC001_Get_All_Employees.checkContentType(TC001_Get_All_Employees.java:75)
+<td title='com.employeeapi.testCases.TC001_Get_All_Employees.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.employeeapi.testCases.TC001_Get_All_Employees</td>
+<td><div><pre>junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertTrue(Assert.java:27)
+	at com.employeeapi.testCases.TC001_Get_All_Employees.checkResponseTime(TC001_Get_All_Employees.java:57)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -105,11 +106,12 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1964847681", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1964847681'><pre>junit.framework.ComparisonFailure: expected:&lt;text/html; charset=UTF-8&gt; but was:&lt;application/json&gt;
-	at junit.framework.Assert.assertEquals(Assert.java:81)
-	at junit.framework.Assert.assertEquals(Assert.java:87)
-	at com.employeeapi.testCases.TC001_Get_All_Employees.checkContentType(TC001_Get_All_Employees.java:75)
+</pre></div><a href='#' onClick='toggleBox("stack-trace727860268", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace727860268'><pre>junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertTrue(Assert.java:27)
+	at com.employeeapi.testCases.TC001_Get_All_Employees.checkResponseTime(TC001_Get_All_Employees.java:57)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -139,14 +141,11 @@ function toggleAllBoxes() {
 <td>0</td>
 <td>com.employeeapi.testCases.TC001_Get_All_Employees@376b4233</td></tr>
 <tr>
-<td title='com.employeeapi.testCases.TC001_Get_All_Employees.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.employeeapi.testCases.TC001_Get_All_Employees</td>
-<td><div><pre>junit.framework.AssertionFailedError: expected:&lt;429&gt; but was:&lt;200&gt;
-	at junit.framework.Assert.fail(Assert.java:47)
-	at junit.framework.Assert.failNotEquals(Assert.java:282)
-	at junit.framework.Assert.assertEquals(Assert.java:64)
-	at junit.framework.Assert.assertEquals(Assert.java:201)
-	at junit.framework.Assert.assertEquals(Assert.java:207)
-	at com.employeeapi.testCases.TC001_Get_All_Employees.checkStatusCode(TC001_Get_All_Employees.java:44)
+<td title='com.employeeapi.testCases.TC001_Get_All_Employees.checkServerType()'><b>checkServerType</b><br>Test class: com.employeeapi.testCases.TC001_Get_All_Employees</td>
+<td><div><pre>junit.framework.ComparisonFailure: expected:&lt;.../1.19.10&gt; but was:&lt;...&gt;
+	at junit.framework.Assert.assertEquals(Assert.java:81)
+	at junit.framework.Assert.assertEquals(Assert.java:87)
+	at com.employeeapi.testCases.TC001_Get_All_Employees.checkServerType(TC001_Get_All_Employees.java:85)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -172,14 +171,11 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1605988985", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1605988985'><pre>junit.framework.AssertionFailedError: expected:&lt;429&gt; but was:&lt;200&gt;
-	at junit.framework.Assert.fail(Assert.java:47)
-	at junit.framework.Assert.failNotEquals(Assert.java:282)
-	at junit.framework.Assert.assertEquals(Assert.java:64)
-	at junit.framework.Assert.assertEquals(Assert.java:201)
-	at junit.framework.Assert.assertEquals(Assert.java:207)
-	at com.employeeapi.testCases.TC001_Get_All_Employees.checkStatusCode(TC001_Get_All_Employees.java:44)
+</pre></div><a href='#' onClick='toggleBox("stack-trace138536309", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace138536309'><pre>junit.framework.ComparisonFailure: expected:&lt;.../1.19.10&gt; but was:&lt;...&gt;
+	at junit.framework.Assert.assertEquals(Assert.java:81)
+	at junit.framework.Assert.assertEquals(Assert.java:87)
+	at com.employeeapi.testCases.TC001_Get_All_Employees.checkServerType(TC001_Get_All_Employees.java:85)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -210,7 +206,7 @@ function toggleAllBoxes() {
 <td>com.employeeapi.testCases.TC001_Get_All_Employees@376b4233</td></tr>
 <tr>
 <td title='com.employeeapi.testCases.TC001_Get_All_Employees.checkStatusLine()'><b>checkStatusLine</b><br>Test class: com.employeeapi.testCases.TC001_Get_All_Employees</td>
-<td><div><pre>junit.framework.ComparisonFailure: expected:&lt;...429 Too Many Requests&gt; but was:&lt;...200 Ok&gt;
+<td><div><pre>junit.framework.ComparisonFailure: expected:&lt;...K&gt; but was:&lt;...k&gt;
 	at junit.framework.Assert.assertEquals(Assert.java:81)
 	at junit.framework.Assert.assertEquals(Assert.java:87)
 	at com.employeeapi.testCases.TC001_Get_All_Employees.checkStatusLine(TC001_Get_All_Employees.java:66)
@@ -239,8 +235,8 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1636178473", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1636178473'><pre>junit.framework.ComparisonFailure: expected:&lt;...429 Too Many Requests&gt; but was:&lt;...200 Ok&gt;
+</pre></div><a href='#' onClick='toggleBox("stack-trace1338958728", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1338958728'><pre>junit.framework.ComparisonFailure: expected:&lt;...K&gt; but was:&lt;...k&gt;
 	at junit.framework.Assert.assertEquals(Assert.java:81)
 	at junit.framework.Assert.assertEquals(Assert.java:87)
 	at com.employeeapi.testCases.TC001_Get_All_Employees.checkStatusLine(TC001_Get_All_Employees.java:66)
@@ -291,6 +287,11 @@ function toggleAllBoxes() {
 <td>0</td>
 <td>com.employeeapi.testCases.TC001_Get_All_Employees@376b4233</td></tr>
 <tr>
+<td title='com.employeeapi.testCases.TC001_Get_All_Employees.checkContentType()'><b>checkContentType</b><br>Test class: com.employeeapi.testCases.TC001_Get_All_Employees</td>
+<td></td>
+<td>0</td>
+<td>com.employeeapi.testCases.TC001_Get_All_Employees@376b4233</td></tr>
+<tr>
 <td title='com.employeeapi.testCases.TC001_Get_All_Employees.checkCookies()'><b>checkCookies</b><br>Test class: com.employeeapi.testCases.TC001_Get_All_Employees</td>
 <td></td>
 <td>0</td>
@@ -301,12 +302,7 @@ function toggleAllBoxes() {
 <td>0</td>
 <td>com.employeeapi.testCases.TC001_Get_All_Employees@376b4233</td></tr>
 <tr>
-<td title='com.employeeapi.testCases.TC001_Get_All_Employees.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.employeeapi.testCases.TC001_Get_All_Employees</td>
-<td></td>
-<td>0</td>
-<td>com.employeeapi.testCases.TC001_Get_All_Employees@376b4233</td></tr>
-<tr>
-<td title='com.employeeapi.testCases.TC001_Get_All_Employees.checkServerType()'><b>checkServerType</b><br>Test class: com.employeeapi.testCases.TC001_Get_All_Employees</td>
+<td title='com.employeeapi.testCases.TC001_Get_All_Employees.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.employeeapi.testCases.TC001_Get_All_Employees</td>
 <td></td>
 <td>0</td>
 <td>com.employeeapi.testCases.TC001_Get_All_Employees@376b4233</td></tr>
