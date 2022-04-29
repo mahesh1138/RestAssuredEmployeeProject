@@ -5,11 +5,17 @@
     <classes>
       <class name="com.employeeapi.testCases.TC001_Get_All_Employees">
         <methods>
+          <include name="checkContentEncoding"/>
+          <include name="checkContentType"/>
           <include name="checkServerType"/>
+          <include name="checkConentLength"/>
           <include name="checkStatusLine"/>
           <include name="setup"/>
+          <include name="checkResponseBody"/>
           <include name="checkResponseTime"/>
           <include name="getAllEmployees"/>
+          <include name="checkStatusCode"/>
+          <include name="checkCookies"/>
         </methods>
       </class> <!-- com.employeeapi.testCases.TC001_Get_All_Employees -->
     </classes>

@@ -736,3 +736,5 @@
 2022-04-112 16:42:49 INFO  EmployeesRestAPI:43 - *********Status Code==>200
 2022-04-112 16:42:49 INFO  EmployeesRestAPI:63 - *************Checking  check StatusLine**************
 2022-04-112 16:42:49 INFO  EmployeesRestAPI:65 - *********StatusLine is==>HTTP/1.1 200 OK
+2022-04-115 16:05:53 INFO  EmployeesRestAPI:19 - **************Started TC001_Get_All_Employee**************
+2022-04-115 16:08:27 INFO  EmployeesRestAPI:29 - ***************Started TC003_Post_Employee_Record**********
